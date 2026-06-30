@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative Web Developer Portfolio Landing Page. Build modern, responsive, and high-performance websites.">
+    <meta name="keywords" content="web developer, portfolio, html, css, javascript, responsive web design, frontend developer">
+    <meta name="author" content="Creative Developer">
+    <title>Building Modern & Responsive Websites | Creative Web Developer</title>
+    
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Glowing Background Blobs -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo" id="logo-link">
+                DEV<span class="text-gradient-purple-cyan">CRAFT</span><span class="logo-dot"></span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <button class="hamburger" id="hamburger-menu" aria-label="Toggle Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content reveal-left">
+                <div class="hero-badge">
+                    <span class="hero-badge-pulse"></span>
+                    Available for Freelance & Full-time Roles
+                </div>
+                <h1 class="hero-title">
+                    Building <span class="text-gradient-purple-cyan">Modern & Responsive</span> Websites
+                </h1>
+                <p class="hero-subtitle">
+                    Creative Web Developer | HTML | CSS | JavaScript. Crafting interactive digital experiences with pixel-perfect layouts, cutting-edge designs, and clean, modular code.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary" id="hero-get-started">
+                        Get Started
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary" id="hero-view-projects">
+                        View Projects
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual reveal-right">
+                <div class="hero-glow-blob"></div>
+                <div class="hero-img-wrapper floating">
+                    <img src="images/hero_illustration.png" alt="Creative Tech Illustration representing Web Development" loading="eager">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Who Behind the Craft?</h2>
+                <p class="section-subtitle">A passion for coding functional, beautiful web applications that drive engagement and solve real-world problems.</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-visual reveal-left">
+                    <div class="about-avatar-wrapper">
+                        <img src="images/about_avatar.png" alt="Developer Avatar Portrait" class="about-avatar">
+                    </div>
+                    <h3 class="about-name">Alex Morgan</h3>
+                    <p class="about-title">Creative Web Developer</p>
+                </div>
+                
+                <div class="about-content reveal-right">
+                    <p class="about-info-text">
+                        I am a frontend developer specializing in building interactive and scalable web products. With a keen eye for detail, I bridge the gap between design and functionality, producing seamless experiences across all device formats.
+                    </p>
+                    
+                    <div class="about-cards-container">
+                        <!-- Experience Card -->
+                        <div class="about-info-card glass-panel">
+                            <h3 class="about-card-title">
+                                <i data-lucide="briefcase"></i> Experience
+                            </h3>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2024 - Present</div>
+                                    <div class="timeline-role">Lead Frontend Engineer</div>
+                                    <div class="timeline-company">PixelForge Digital</div>
+                                    <p class="timeline-desc">Architecting robust web solutions, optimizing performance, and crafting design systems.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2022 - 2024</div>
+                                    <div class="timeline-role">Web Developer</div>
+                                    <div class="timeline-company">Synapse Media Lab</div>
+                                    <p class="timeline-desc">Coded responsive layouts, integrated restful APIs, and improved page speed scores.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Skills Card -->
+                        <div class="about-info-card glass-panel">
+                            <h3 class="about-card-title">
+                                <i data-lucide="cpu"></i> Skills & Tools
+                            </h3>
+                            <div class="skills-grid">
+                                <div class="skill-tag"><i data-lucide="code-2"></i> HTML5</div>
+                                <div class="skill-tag"><i data-lucide="file-json-2"></i> CSS3 / SCSS</div>
+                                <div class="skill-tag"><i data-lucide="braces"></i> JavaScript</div>
+                                <div class="skill-tag"><i data-lucide="layout"></i> Flexbox & Grid</div>
+                                <div class="skill-tag"><i data-lucide="git-branch"></i> Git Versioning</div>
+                                <div class="skill-tag"><i data-lucide="gauge"></i> Web Vitals</div>
+                            </div>
+                        </div>
+
+                        <!-- Education Card -->
+                        <div class="about-info-card glass-panel">
+                            <h3 class="about-card-title">
+                                <i data-lucide="graduation-cap"></i> Education & Certs
+                            </h3>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2021</div>
+                                    <div class="timeline-role">B.S. in Software Engineering</div>
+                                    <div class="timeline-company">Metro Tech University</div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2022</div>
+                                    <div class="timeline-role">Advanced JS Development Certificate</div>
+                                    <div class="timeline-company">JS Authority Academy</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Services</span>
+                <h2 class="section-title">What I Offer</h2>
+                <p class="section-subtitle">Delivering high-quality developer services tailored to scale your brand and improve digital conversions.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card glass-panel reveal-scale">
+                    <div class="service-icon-box">
+                        <i data-lucide="palette"></i>
+                    </div>
+                    <h3 class="service-card-title">Web Design</h3>
+                    <p class="service-card-desc">Designing modern layouts that balance creativity and structure, aligning with your brand identity to make an instant impact.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card glass-panel reveal-scale">
+                    <div class="service-icon-box">
+                        <i data-lucide="smartphone"></i>
+                    </div>
+                    <h3 class="service-card-title">Responsive Websites</h3>
+                    <p class="service-card-desc">Guaranteeing seamless usability and visual excellence across every device size, from standard desktops to mobiles.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card glass-panel reveal-scale">
+                    <div class="service-icon-box">
+                        <i data-lucide="layers"></i>
+                    </div>
+                    <h3 class="service-card-title">UI/UX Design</h3>
+                    <p class="service-card-desc">Creating wireframes and layouts optimized for user flows, accessibility, usability, and modern visual aesthetics.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="service-card glass-panel reveal-scale">
+                    <div class="service-icon-box">
+                        <i data-lucide="monitor"></i>
+                    </div>
+                    <h3 class="service-card-title">Frontend Development</h3>
+                    <p class="service-card-desc">Converting static designs into responsive web components using robust, accessible HTML, CSS, and modern code practices.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="service-card glass-panel reveal-scale">
+                    <div class="service-icon-box">
+                        <i data-lucide="terminal"></i>
+                    </div>
+                    <h3 class="service-card-title">JavaScript Development</h3>
+                    <p class="service-card-desc">Adding functional dynamic logic, interactive dashboards, scroll events, real-time validations, and data visualization features.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="service-card glass-panel reveal-scale">
+                    <div class="service-icon-box">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3 class="service-card-title">Website Optimization</h3>
+                    <p class="service-card-desc">Auditing Core Web Vitals, compressing elements, refactoring scripts, and caching structures to reach near 100% lighthouse speed scores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Recent Creations</h2>
+                <p class="section-subtitle">Explore a collection of interactive applications and responsive pages built with clean code standards.</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-panel reveal">
+                    <div class="project-visual">
+                        <img src="images/project_portfolio.png" alt="Developer Portfolio Project Mockup" class="project-img" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-tags">
+                                <span class="project-tag">HTML5</span>
+                                <span class="project-tag">CSS3 Grid</span>
+                                <span class="project-tag">Vanilla JS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-desc">A premium, fully responsive landing page optimized for fast load speed, featuring smooth glassmorphism effects and customizable dark themes.</p>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="external-link"></i> Live Demo
+                            </a>
+                            <a href="#" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card glass-panel reveal">
+                    <div class="project-visual">
+                        <img src="images/project_weather.png" alt="Weather Forecast Application Mockup" class="project-img" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-tags">
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">REST API</span>
+                                <span class="project-tag">CSS Glassmorphism</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Weather App</h3>
+                        <p class="project-desc">A modern weather dashboard querying location weather data. Features dynamic graphic states matching climate forecasts and smooth search queries.</p>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="external-link"></i> Live Demo
+                            </a>
+                            <a href="#" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card glass-panel reveal">
+                    <div class="project-visual">
+                        <img src="images/project_stopwatch.png" alt="Stopwatch Dashboard Application Mockup" class="project-img" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-tags">
+                                <span class="project-tag">HTML5 Canvas</span>
+                                <span class="project-tag">JS Timers</span>
+                                <span class="project-tag">UI Animation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Stopwatch</h3>
+                        <p class="project-desc">Highly precise lap-tracking digital stopwatch. Leverages custom requestAnimationFrame timers and interactive dial scaling transitions.</p>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="external-link"></i> Live Demo
+                            </a>
+                            <a href="#" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card glass-panel reveal">
+                    <div class="project-visual">
+                        <img src="images/project_tictactoe.png" alt="Tic-Tac-Toe Game Board Mockup" class="project-img" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-tags">
+                                <span class="project-tag">JS Algorithm</span>
+                                <span class="project-tag">Neon CSS</span>
+                                <span class="project-tag">Interactive sound</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Tic-Tac-Toe Game</h3>
+                        <p class="project-desc">A retro-styled Tic-Tac-Toe web game featuring local multiplayer modes, score tracking, responsive boards, and neon styling details.</p>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="external-link"></i> Live Demo
+                            </a>
+                            <a href="#" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Have a project, a role opening, or want to collaborate? Fill out the form or reach out directly.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <h3 class="contact-title">Let's discuss something <span class="text-gradient-cyan-pink">great</span></h3>
+                    <p class="contact-desc">
+                        I am open to discuss web architectural designs, code refactoring, full-time contracts, or cool open source projects.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <!-- Email -->
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div>
+                                <div class="contact-detail-label">Email Me</div>
+                                <a href="mailto:alex@devcraft.com" class="contact-detail-val">alex@devcraft.com</a>
+                            </div>
+                        </div>
+                        <!-- Location -->
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div>
+                                <div class="contact-detail-label">Location</div>
+                                <div class="contact-detail-val">San Francisco, CA</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-socials-wrapper">
+                        <h4 class="contact-socials-title">Follow My Work</h4>
+                        <div class="contact-socials">
+                            <a href="#" class="contact-social-btn" aria-label="GitHub"><i data-lucide="github"></i></a>
+                            <a href="#" class="contact-social-btn" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                            <a href="#" class="contact-social-btn" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                            <a href="#" class="contact-social-btn" aria-label="Dribbble"><i data-lucide="dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form Card -->
+                <div class="contact-form-card glass-panel reveal-right">
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="contact-name" class="form-label">Full Name</label>
+                            <input type="text" id="contact-name" name="name" class="form-input" placeholder="John Doe" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-email" class="form-label">Email Address</label>
+                            <input type="email" id="contact-email" name="email" class="form-input" placeholder="john@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-subject" class="form-label">Subject</label>
+                            <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Project Inquiry" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-message" class="form-label">Message</label>
+                            <textarea id="contact-message" name="message" class="form-input" placeholder="Tell me more about your requirements..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="contact-submit">
+                            Send Message
+                            <i data-lucide="send"></i>
+                        </button>
+                        
+                        <div class="form-feedback" id="form-feedback">
+                            <!-- JS will inject output here -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <a href="#home" class="logo">
+                        DEV<span class="text-gradient-purple-cyan">CRAFT</span><span class="logo-dot"></span>
+                    </a>
+                    <p class="footer-desc">
+                        Designing & building high-fidelity websites with smooth animations, robust code, and premium visual layout concepts.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="#" class="footer-social-btn" aria-label="GitHub"><i data-lucide="github"></i></a>
+                        <a href="#" class="footer-social-btn" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                        <a href="#" class="footer-social-btn" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#services" class="footer-link">Services</a></li>
+                        <li><a href="#projects" class="footer-link">Projects</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services" class="footer-link">Responsive Design</a></li>
+                        <li><a href="#services" class="footer-link">Frontend Dev</a></li>
+                        <li><a href="#services" class="footer-link">UI/UX Layouts</a></li>
+                        <li><a href="#services" class="footer-link">Web Vitals Tuning</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 DevCraft. All rights reserved. Crafted by Alex Morgan.</p>
+                <p>Terms of Service | Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <!-- Lucide Icon script -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
